@@ -1,0 +1,89 @@
+.html {
+  width: 100%;
+}
+
+.container {
+  margin-left: 20%;
+  margin-top: 3%;
+  border: 2px solid yellow;
+  padding: 20px;
+  text-align: left;
+  color: gray;
+  font-size: large;
+  backdrop-filter: blur(15px);
+  border-radius: 25px;
+  width: 50%;
+  z-index: 15;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: tomato;
+  color: black;
+  text-align: center;
+  font-weight: 600;
+}
+
+.deletebtn {
+  /* display: inline-block; */
+  padding: 0.2em 1em;
+  /* margin: 0 0.3em 0.3em 0; */
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: tomato;
+  text-align: center;
+  margin-right: 0%;
+  float: right;
+  position: relative;
+}
+
+.list {
+  list-style: none;
+  padding: 10px 20px;
+  color: grey;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 2px solid lightgrey;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.delete {
+  display: none;
+}
+
+.done {
+  color: green;
+  text-decoration: line-through;
+}
+#todo {
+  margin-top: 10%;
+  padding-left: 0px;
+}
+
+.Addbtn {
+  display: inline-block;
+  padding: 0.2em 1em;
+  /* margin: 0 0.3em 0.3em 0; */
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: green;
+  text-align: center;
+  margin-right: 0%;
+}
