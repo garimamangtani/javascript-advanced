@@ -1,16 +1,19 @@
 .html {
   width: 100%;
+  background-image: url(./Images/25things_orig.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
-  margin-left: 20%;
+  margin-left: 25%;
   margin-top: 3%;
   border: 2px solid yellow;
   padding: 20px;
   text-align: left;
-  color: gray;
+  color: black;
   font-size: large;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(25px);
   border-radius: 25px;
   width: 50%;
   z-index: 15;
@@ -23,8 +26,8 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: tomato;
-  color: black;
+  background-color: red;
+  color: white;
   text-align: center;
   font-weight: 600;
 }
@@ -39,7 +42,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: #ffffff;
-  background-color: tomato;
+  background-color: red;
   text-align: center;
   margin-right: 0%;
   float: right;
@@ -49,10 +52,10 @@
 .list {
   list-style: none;
   padding: 10px 20px;
-  color: grey;
+  color: darkgreen;
   text-transform: capitalize;
   font-weight: 600;
-  border: 2px solid lightgrey;
+  border: 2px solid black;
   border-radius: 25px;
   margin-bottom: 10px;
   text-align: left;
@@ -82,8 +85,8 @@
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  color: #ffffff;
-  background-color: green;
+  color: black;
+  background-color: yellow;
   text-align: center;
   margin-right: 0%;
 }
